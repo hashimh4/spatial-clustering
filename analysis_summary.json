@@ -1,0 +1,373 @@
+{
+  "analysis_metadata": {
+    "timestamp": "2025-07-25T08:51:10.397813",
+    "runtime_seconds": 3.68,
+    "analysis_type": "london_buildings_spatial_analysis"
+  },
+  "dataset_stats": {
+    "total_buildings": 6458,
+    "avg_height_m": 63.2,
+    "max_height_m": 278.0,
+    "avg_volume_m3": 8446.0,
+    "building_types": 50
+  },
+  "analysis_results": {
+    "basic_stats": [
+      {
+        "total_buildings": 6458,
+        "avg_height_m": 63.2,
+        "max_height_m": 278.0,
+        "avg_volume_m3": 8446.0,
+        "building_types": 50
+      }
+    ],
+    "height_distribution": [
+      {
+        "height_category": "low_rise",
+        "building_count": 324,
+        "avg_height": 5.7,
+        "avg_volume": 2361.2,
+        "percentage": 5.0
+      },
+      {
+        "height_category": "mid_rise",
+        "building_count": 5968,
+        "avg_height": 14.8,
+        "avg_volume": 6021.7,
+        "percentage": 92.4
+      },
+      {
+        "height_category": "high_rise",
+        "building_count": 166,
+        "avg_height": 110.5,
+        "avg_volume": 107475.6,
+        "percentage": 2.6
+      }
+    ],
+    "building_types": [
+      {
+        "building_type": "unspecified",
+        "count": 4200,
+        "avg_height": 57.1,
+        "avg_footprint_m2": 341.0
+      },
+      {
+        "building_type": "commercial",
+        "count": 553,
+        "avg_height": 118.8,
+        "avg_footprint_m2": 776.0
+      },
+      {
+        "building_type": "house",
+        "count": 395,
+        "avg_height": NaN,
+        "avg_footprint_m2": 53.0
+      },
+      {
+        "building_type": "office",
+        "count": 359,
+        "avg_height": 73.2,
+        "avg_footprint_m2": 978.0
+      },
+      {
+        "building_type": "apartments",
+        "count": 355,
+        "avg_height": 63.5,
+        "avg_footprint_m2": 532.0
+      },
+      {
+        "building_type": "residential",
+        "count": 163,
+        "avg_height": 100.2,
+        "avg_footprint_m2": 484.0
+      },
+      {
+        "building_type": "retail",
+        "count": 101,
+        "avg_height": NaN,
+        "avg_footprint_m2": 461.0
+      },
+      {
+        "building_type": "church",
+        "count": 56,
+        "avg_height": NaN,
+        "avg_footprint_m2": 596.0
+      },
+      {
+        "building_type": "school",
+        "count": 26,
+        "avg_height": NaN,
+        "avg_footprint_m2": 1294.0
+      },
+      {
+        "building_type": "roof",
+        "count": 23,
+        "avg_height": 6.0,
+        "avg_footprint_m2": 509.0
+      },
+      {
+        "building_type": "university",
+        "count": 20,
+        "avg_height": NaN,
+        "avg_footprint_m2": 1062.0
+      },
+      {
+        "building_type": "hotel",
+        "count": 19,
+        "avg_height": 30.0,
+        "avg_footprint_m2": 1138.0
+      },
+      {
+        "building_type": "train_station",
+        "count": 18,
+        "avg_height": NaN,
+        "avg_footprint_m2": 4509.0
+      },
+      {
+        "building_type": "industrial",
+        "count": 18,
+        "avg_height": NaN,
+        "avg_footprint_m2": 508.0
+      },
+      {
+        "building_type": "service",
+        "count": 15,
+        "avg_height": NaN,
+        "avg_footprint_m2": 32.0
+      },
+      {
+        "building_type": "terrace",
+        "count": 15,
+        "avg_height": NaN,
+        "avg_footprint_m2": 347.0
+      },
+      {
+        "building_type": "tower",
+        "count": 13,
+        "avg_height": 10.0,
+        "avg_footprint_m2": 85.0
+      },
+      {
+        "building_type": "garage",
+        "count": 12,
+        "avg_height": NaN,
+        "avg_footprint_m2": 86.0
+      },
+      {
+        "building_type": "garages",
+        "count": 12,
+        "avg_height": NaN,
+        "avg_footprint_m2": 170.0
+      },
+      {
+        "building_type": "construction",
+        "count": 11,
+        "avg_height": 158.8,
+        "avg_footprint_m2": 2383.0
+      },
+      {
+        "building_type": "dormitory",
+        "count": 8,
+        "avg_height": NaN,
+        "avg_footprint_m2": 1627.0
+      },
+      {
+        "building_type": "flats",
+        "count": 7,
+        "avg_height": NaN,
+        "avg_footprint_m2": 605.0
+      },
+      {
+        "building_type": "shed",
+        "count": 6,
+        "avg_height": NaN,
+        "avg_footprint_m2": 54.0
+      },
+      {
+        "building_type": "civic",
+        "count": 4,
+        "avg_height": NaN,
+        "avg_footprint_m2": 1027.0
+      },
+      {
+        "building_type": "hospital",
+        "count": 4,
+        "avg_height": NaN,
+        "avg_footprint_m2": 615.0
+      },
+      {
+        "building_type": "facade",
+        "count": 4,
+        "avg_height": NaN,
+        "avg_footprint_m2": 146.0
+      },
+      {
+        "building_type": "government",
+        "count": 3,
+        "avg_height": NaN,
+        "avg_footprint_m2": 375.0
+      },
+      {
+        "building_type": "kiosk",
+        "count": 3,
+        "avg_height": NaN,
+        "avg_footprint_m2": 22.0
+      },
+      {
+        "building_type": "air_shaft",
+        "count": 3,
+        "avg_height": 7.5,
+        "avg_footprint_m2": 70.0
+      },
+      {
+        "building_type": "pub",
+        "count": 3,
+        "avg_height": NaN,
+        "avg_footprint_m2": 96.0
+      },
+      {
+        "building_type": "college",
+        "count": 3,
+        "avg_height": NaN,
+        "avg_footprint_m2": 221.0
+      },
+      {
+        "building_type": "public",
+        "count": 3,
+        "avg_height": NaN,
+        "avg_footprint_m2": 1138.0
+      },
+      {
+        "building_type": "data_center",
+        "count": 3,
+        "avg_height": NaN,
+        "avg_footprint_m2": 2316.0
+      },
+      {
+        "building_type": "substation",
+        "count": 2,
+        "avg_height": NaN,
+        "avg_footprint_m2": 675.0
+      },
+      {
+        "building_type": "chapel",
+        "count": 2,
+        "avg_height": NaN,
+        "avg_footprint_m2": 159.0
+      },
+      {
+        "building_type": "warehouse",
+        "count": 2,
+        "avg_height": NaN,
+        "avg_footprint_m2": 932.0
+      },
+      {
+        "building_type": "cathedral",
+        "count": 1,
+        "avg_height": 35.0,
+        "avg_footprint_m2": 7916.0
+      },
+      {
+        "building_type": "bar",
+        "count": 1,
+        "avg_height": NaN,
+        "avg_footprint_m2": 288.0
+      },
+      {
+        "building_type": "hall",
+        "count": 1,
+        "avg_height": NaN,
+        "avg_footprint_m2": 173.0
+      },
+      {
+        "building_type": "gallery",
+        "count": 1,
+        "avg_height": NaN,
+        "avg_footprint_m2": 108.0
+      },
+      {
+        "building_type": "bridge",
+        "count": 1,
+        "avg_height": NaN,
+        "avg_footprint_m2": 32.0
+      },
+      {
+        "building_type": "parking",
+        "count": 1,
+        "avg_height": NaN,
+        "avg_footprint_m2": 408.0
+      },
+      {
+        "building_type": "library",
+        "count": 1,
+        "avg_height": NaN,
+        "avg_footprint_m2": 4334.0
+      },
+      {
+        "building_type": "synagogue",
+        "count": 1,
+        "avg_height": NaN,
+        "avg_footprint_m2": 478.0
+      },
+      {
+        "building_type": "ruins",
+        "count": 1,
+        "avg_height": NaN,
+        "avg_footprint_m2": 673.0
+      },
+      {
+        "building_type": "hall_of_residence",
+        "count": 1,
+        "avg_height": NaN,
+        "avg_footprint_m2": 458.0
+      },
+      {
+        "building_type": "community_centre",
+        "count": 1,
+        "avg_height": NaN,
+        "avg_footprint_m2": 567.0
+      },
+      {
+        "building_type": "bell_tower",
+        "count": 1,
+        "avg_height": NaN,
+        "avg_footprint_m2": 42.0
+      },
+      {
+        "building_type": "greenhouse",
+        "count": 1,
+        "avg_height": NaN,
+        "avg_footprint_m2": 16.0
+      },
+      {
+        "building_type": "shelter",
+        "count": 1,
+        "avg_height": NaN,
+        "avg_footprint_m2": 58.0
+      }
+    ],
+    "spatial_clusters": [
+      {
+        "cluster_id": 0,
+        "buildings_in_cluster": 15,
+        "avg_cluster_height": 158.1,
+        "tallest_in_cluster": 278.0,
+        "building_types": "commercial, construction, office, unspecified"
+      },
+      {
+        "cluster_id": 1,
+        "buildings_in_cluster": 3,
+        "avg_cluster_height": 123.0,
+        "tallest_in_cluster": 123.0,
+        "building_types": "residential"
+      },
+      {
+        "cluster_id": 2,
+        "buildings_in_cluster": 2,
+        "avg_cluster_height": 137.5,
+        "tallest_in_cluster": 147.0,
+        "building_types": "apartments"
+      }
+    ]
+  }
+}

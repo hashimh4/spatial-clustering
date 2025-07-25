@@ -1,0 +1,191 @@
+CITY OF LONDON BUILDING ANALYSIS
+============================================================
+
+DATASET OVERVIEW:
+   • Total Number of Buildings Analysed: 6,458.0
+   • Average Building Height: 63.2 m
+   • Tallest Building: 278.0 m
+   • Average Building Volume: 8,446 m^3
+   • Number of Building Types: 50.0 types
+
+============================================================
+
+HEIGHT DISTRIBUTION:
+   • Low-Rise: 324 buildings (5.0%)
+     - Average height: 5.7m
+   • Mid-Rise: 5968 buildings (92.4%)
+     - Average height: 14.8m
+   • High-Rise: 166 buildings (2.6%)
+     - Average height: 110.5m
+
+BUILDING TYPE ANALYSIS:
+   • Unspecified: 4200 buildings
+     - Average height: 57.1m
+     - Average footprint: 341 m²
+   • Commercial: 553 buildings
+     - Average height: 118.8m
+     - Average footprint: 776 m²
+   • House: 395 buildings
+     - Average height: nanm
+     - Average footprint: 53 m²
+   • Office: 359 buildings
+     - Average height: 73.2m
+     - Average footprint: 978 m²
+   • Apartments: 355 buildings
+     - Average height: 63.5m
+     - Average footprint: 532 m²
+   • Residential: 163 buildings
+     - Average height: 100.2m
+     - Average footprint: 484 m²
+   • Retail: 101 buildings
+     - Average height: nanm
+     - Average footprint: 461 m²
+   • Church: 56 buildings
+     - Average height: nanm
+     - Average footprint: 596 m²
+   • School: 26 buildings
+     - Average height: nanm
+     - Average footprint: 1,294 m²
+   • Roof: 23 buildings
+     - Average height: 6.0m
+     - Average footprint: 509 m²
+   • University: 20 buildings
+     - Average height: nanm
+     - Average footprint: 1,062 m²
+   • Hotel: 19 buildings
+     - Average height: 30.0m
+     - Average footprint: 1,138 m²
+   • Train_Station: 18 buildings
+     - Average height: nanm
+     - Average footprint: 4,509 m²
+   • Industrial: 18 buildings
+     - Average height: nanm
+     - Average footprint: 508 m²
+   • Service: 15 buildings
+     - Average height: nanm
+     - Average footprint: 32 m²
+   • Terrace: 15 buildings
+     - Average height: nanm
+     - Average footprint: 347 m²
+   • Tower: 13 buildings
+     - Average height: 10.0m
+     - Average footprint: 85 m²
+   • Garage: 12 buildings
+     - Average height: nanm
+     - Average footprint: 86 m²
+   • Garages: 12 buildings
+     - Average height: nanm
+     - Average footprint: 170 m²
+   • Construction: 11 buildings
+     - Average height: 158.8m
+     - Average footprint: 2,383 m²
+   • Dormitory: 8 buildings
+     - Average height: nanm
+     - Average footprint: 1,627 m²
+   • Flats: 7 buildings
+     - Average height: nanm
+     - Average footprint: 605 m²
+   • Shed: 6 buildings
+     - Average height: nanm
+     - Average footprint: 54 m²
+   • Civic: 4 buildings
+     - Average height: nanm
+     - Average footprint: 1,027 m²
+   • Hospital: 4 buildings
+     - Average height: nanm
+     - Average footprint: 615 m²
+   • Facade: 4 buildings
+     - Average height: nanm
+     - Average footprint: 146 m²
+   • Government: 3 buildings
+     - Average height: nanm
+     - Average footprint: 375 m²
+   • Kiosk: 3 buildings
+     - Average height: nanm
+     - Average footprint: 22 m²
+   • Air_Shaft: 3 buildings
+     - Average height: 7.5m
+     - Average footprint: 70 m²
+   • Pub: 3 buildings
+     - Average height: nanm
+     - Average footprint: 96 m²
+   • College: 3 buildings
+     - Average height: nanm
+     - Average footprint: 221 m²
+   • Public: 3 buildings
+     - Average height: nanm
+     - Average footprint: 1,138 m²
+   • Data_Center: 3 buildings
+     - Average height: nanm
+     - Average footprint: 2,316 m²
+   • Substation: 2 buildings
+     - Average height: nanm
+     - Average footprint: 675 m²
+   • Chapel: 2 buildings
+     - Average height: nanm
+     - Average footprint: 159 m²
+   • Warehouse: 2 buildings
+     - Average height: nanm
+     - Average footprint: 932 m²
+   • Cathedral: 1 buildings
+     - Average height: 35.0m
+     - Average footprint: 7,916 m²
+   • Bar: 1 buildings
+     - Average height: nanm
+     - Average footprint: 288 m²
+   • Hall: 1 buildings
+     - Average height: nanm
+     - Average footprint: 173 m²
+   • Gallery: 1 buildings
+     - Average height: nanm
+     - Average footprint: 108 m²
+   • Bridge: 1 buildings
+     - Average height: nanm
+     - Average footprint: 32 m²
+   • Parking: 1 buildings
+     - Average height: nanm
+     - Average footprint: 408 m²
+   • Library: 1 buildings
+     - Average height: nanm
+     - Average footprint: 4,334 m²
+   • Synagogue: 1 buildings
+     - Average height: nanm
+     - Average footprint: 478 m²
+   • Ruins: 1 buildings
+     - Average height: nanm
+     - Average footprint: 673 m²
+   • Hall_Of_Residence: 1 buildings
+     - Average height: nanm
+     - Average footprint: 458 m²
+   • Community_Centre: 1 buildings
+     - Average height: nanm
+     - Average footprint: 567 m²
+   • Bell_Tower: 1 buildings
+     - Average height: nanm
+     - Average footprint: 42 m²
+   • Greenhouse: 1 buildings
+     - Average height: nanm
+     - Average footprint: 16 m²
+   • Shelter: 1 buildings
+     - Average height: nanm
+     - Average footprint: 58 m²
+
+============================================================
+
+SPATIAL CLUSTERING ANALYSIS:
+   • 3 high-rise clusters identified (with PostGIS DBSCAN)
+   • Clusters contain buildings >40m height within 200m radius
+
+LARGEST CLUSTER:
+     - Buildings in cluster: 15
+     - Average cluster height: 158.1m
+     - Tallest building: 278.0m
+
+ALL CLUSTERS:
+   • Cluster 1: 15 buildings, avg height 158.1m, tallest 278.0m, types: commercial, construction, office, unspecified
+   • Cluster 2: 3 buildings, avg height 123.0m, tallest 123.0m, types: residential
+   • Cluster 3: 2 buildings, avg height 137.5m, tallest 147.0m, types: apartments
+
+CLUSTER SUMMARY:
+     - Total buildings in clusters: 20
+     - Average cluster size: 6.7 buildings

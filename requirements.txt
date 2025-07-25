@@ -1,0 +1,9 @@
+pandas
+geopandas
+psycopg2-binary
+requests
+shapely
+python-dotenv
+osmnx
+geoalchemy2
+sqlalchemy==1.4.53
